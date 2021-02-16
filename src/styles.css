@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-raised-button.mat-yellowgreen, .mat-flat-button.yellowgreen{
+    background-color:yellowgreen;
+    color: black;
+ }
+ .mat-button.mat-yellowgreen{
+    background-color:yellowgreen;
+    color: black;
+    margin: 5px;
+    
+ }
+
+ .mat-step-header .mat-step-label.mat-step-label-active {
+    color: aqua;
+}
+.mat-expansion-panel-header-title {
+    color: cornsilk;
+}

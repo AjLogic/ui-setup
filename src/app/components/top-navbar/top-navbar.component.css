@@ -1,0 +1,41 @@
+.app-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.mat-toolbar-row-custom {
+    /* display: flex; */
+    box-sizing: border-box;
+    padding: 11px 275px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+    text-align: right;
+    display: block;
+}
+
+
+.custom-sideNavbar{
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    position: fixed;
+}
+.responsive_mat-drawer-container {
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    display: initial;
+    position: initial;
+}
+
+
+
+.mat-step-header .mat-step-label.mat-step-label-active {
+    color: aqua;
+}
